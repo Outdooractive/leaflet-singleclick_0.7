@@ -33,7 +33,12 @@ L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 
 // test
 
-map.on('singleclick',function ( e ) { console.log( 'singleclick', e ); } );
+map.on('singleclick',function ( e ) { 
+    console.log( 'singleclick', e ); 
+    L.popup().setLatLng( e.latlng )
+        .setContent( '<p><code>singleclick</code> at ' + e.latlng ) 
+        .openOn( map );
+} );
     </script>
 
   </body>
