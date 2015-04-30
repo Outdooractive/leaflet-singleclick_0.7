@@ -5,3 +5,7 @@ This plugin extends `L.Map` to fire the `singleclick` event. The `singleclick` e
 
 
 Note: For Leaflet 0.8 it could be possible to extend `L.Evented` instead, to have also Marker etc. support the `singleclick` event.
+
+## live example
+
+http://alpstein.github.io/leaflet-singleclick_0.7/
