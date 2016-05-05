@@ -8,4 +8,4 @@ Note: For Leaflet 0.8 it could be possible to extend `L.Evented` instead, to hav
 
 ## live example
 
-http://alpstein.github.io/leaflet-singleclick_0.7/
+http://outdooractive.github.io/leaflet-singleclick_0.7/
